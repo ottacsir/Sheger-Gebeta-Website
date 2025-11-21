@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheger Gebeta - Request</title>
+</head>
+<body>
+    <header>
+        <h1>Sheger Gebeta</h1>
+        <p>Submit your restaurant review request</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="videos.html">Videos</a> |
+        <a href="contact.html">Request</a>
+    </nav>
+    <section>
+        <h2>Review Request Form</h2>
+        <p>Please fill out this form to request a restaurant review.</p>
+        <form>
+            <label>Your Name:</label><br>
+            <input type="text" name="fullname" required><br><br>
+            <label>Contact (Email or Phone):</label><br>
+            <input type="text" name="contact" required><br><br>
+            <label>Restaurant Name:</label><br>
+            <input type="text" name="restaurant" required><br><br>
+            <label>Type of Food:</label><br>
+            <select name="foodtype">
+                <option>Traditional</option>
+                <option>Fast Food</option>
+                <option>Dessert</option>
+            </select><br><br>
+            <label>What would you like us to review?</label><br>
+            <textarea name="details" rows="4" cols="40" placeholder="Tell us which cafe/restaurant you want reviewed..."></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <section>
+        <h2>Popular Restaurant Categories</h2>
+        <p>This table shows different types of restaurants reviewed on Sheger Gebeta.</p>
+        <table border="1" cellpadding="8">
+            <tr>
+                <th colspan="2">Restaurant Category</th>
+                <th>Places</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Traditional</td>
+                <td>Breakfast</td>
+                <td>Chechebsa House, Yod Abyssinia</td>
+            </tr>
+            <tr>
+                <td>Lunch/Dinner</td>
+                <td>Kategna, Totot</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Fast Food</td>
+                <td>Burgers</td>
+                <td>Queen Burger, Burger Hub</td>
+            </tr>
+            <tr>
+                <td>Fried Chicken</td>
+                <td>Inter Chicken, Chicken Hut</td>
+            </tr>
+            <tr>
+                <td colspan="2">Desserts</td>
+                <td>Lulis Cake, Novis Cupcakes</td>
+            </tr>
+        </table>
+    </section>
+    <footer>
+        <p>&copy; 2025 Sheger Gebeta. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
